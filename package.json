@@ -1,0 +1,19 @@
+{
+  "name": "grpc-node-course",
+  "version": "1.0.0",
+  "description": "course",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "gen:certs": "./scripts/gen_certs.sh",
+    "develop": "SERVER_PORT=50051 node index"
+  },
+  "author": "pdichone",
+  "license": "ISC",
+  "dependencies": {
+    "google-protobuf": "^3.10.0",
+    "grpc": "^1.24.1",
+    "knex": "^0.20.1",
+    "pg": "^7.12.1"
+  }
+}
